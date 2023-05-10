@@ -138,3 +138,139 @@ li:nth-child(6) {
   border-bottom: 2px solid #8e2e2e;
   padding-bottom: 20px;
 }
+.more-info {
+  text-transform: capitalize;
+  color: rgb(255, 232, 31);
+  text-decoration: none;
+
+}
+
+.movie-card h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-family: "Star Jedi", "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+
+}
+
+.date {
+  color: rgb(157, 157, 157);
+
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  background-color: #232323;
+  padding: 30px;
+  margin-inline: 40px;
+  border-radius: 5px;
+
+}
+
+
+.details header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+
+}
+
+.details h2 {
+  font-family: 'Star Jedi', 'Open Sans', sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.details .back {
+  align-self: flex-start;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.details button {
+  background-color: transparent;
+  border: none;
+  background-color: #232323;
+  color: #9D9D9D;
+  font-size: 1rem;
+}
+
+.details p {
+  margin: 0.2rem 0;
+  font-size: 16px;
+  font-size: 200;
+
+
+}
+
+.gray {
+  color: #9D9D9D;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.section {
+  border-top: 2px solid #3C3C3C;
+  margin-bottom: 1rem;
+}
+
+.details ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1.1rem;
+
+
+}
+
+.details li {
+  width: 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+
+}
+
+@media screen and (min-width: 768px) {
+  .details li {
+    flex: 0 0 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .details li {
+    flex: 0 0 calc(33.33% - 1.1rem);
+    max-width: calc(33.33% - 1.1rem);
+  }
+}
+
+@media (max-width: 576px) {
+  .details {
+    max-width: 90%;
+
+  }
+}
+
+@media (min-width: 768px) {
+  .details {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+
+
+@media (min-width:992px) {
+  .details {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+}
